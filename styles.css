@@ -11,16 +11,16 @@ body {
   width: 250px;
   background: black;
   color: #bcc3c5;
-  position: fixed; /* Fix the sidebar */
-  top: 0; /* Align to the top */
-  left: 0; /* Align to the left */
-  height: 100%; /* Full height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  overflow: auto; /* Enable scrolling if needed */
-  z-index: 1000; /* High z-index to ensure it's on top */
+  overflow: auto;
+  z-index: 1000;
 }
 
 .sidebar .profile {
@@ -252,52 +252,52 @@ p {
 }
 
 .experience-button {
-  background-color: #747574; /* Green background */
-  color: rgb(0, 0, 0); /* White text */
-  border: none; /* No border */
-  padding: 10px 20px; /* Padding */
-  font-size: 16px; /* Font size */
+  background-color: #747574;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
   cursor: pointer; /* Pointer cursor */
   border-radius: 5px; /* Rounded corners */
 }
 
 .experience-button:hover {
-  background-color: rgb(107, 107, 107); /* Darker green background on hover */
-  color: rgb(255, 255, 255); /* White text */
+  background-color: rgb(107, 107, 107);
+  color: rgb(255, 255, 255);
 }
 
 .grj-button {
-  background-color: #747574; /* Green background */
-  color: rgb(0, 0, 0); /* White text */
-  border: none; /* No border */
-  padding: 10px 20px; /* Padding */
-  font-size: 16px; /* Font size */
-  cursor: pointer; /* Pointer cursor */
-  border-radius: 5px; /* Rounded corners */
+  background-color: #747574;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .grj-button:hover {
-  background-color: rgb(107, 107, 107); /* Darker green background on hover */
-  color: rgb(255, 255, 255); /* White text */
+  background-color: rgb(107, 107, 107);
+  color: rgb(255, 255, 255);
 }
 
 .download-button {
-  background-color: #747574; /* Green background */
-  border: none; /* Remove borders */
-  color: rgb(0, 0, 0); /* White text */
-  padding: 15px 32px; /* Padding */
-  text-align: center; /* Centered text */
+  background-color: #747574;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none; /* Remove underline */
   display: inline-block; /* Get the element to sit inline */
-  font-size: 16px; /* Increase font size */
-  margin: 4px 2px; /* Add some margin */
-  cursor: pointer; /* Pointer/hand icon on hover */
-  border-radius: 4px; /* Rounded corners */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
   transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .download-button:hover {
-  background-color: rgb(107, 107, 107); /* Darker green on hover */
+  background-color: rgb(107, 107, 107);
   color: rgb(255, 255, 255);
 }
 
